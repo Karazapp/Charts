@@ -17,7 +17,7 @@
 
 //: # Line Chart
 import Cocoa
-import Charts
+import IOSCharts
 import PlaygroundSupport
 
 

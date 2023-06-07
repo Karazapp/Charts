@@ -5,7 +5,7 @@
 //
 
 import Foundation
-import Charts
+import IOSCharts
 
 private let MAX_LENGTH = 5
 

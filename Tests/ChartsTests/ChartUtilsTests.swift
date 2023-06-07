@@ -1,4 +1,4 @@
-@testable import Charts
+@testable import IOSCharts
 import XCTest
 
 class ChartUtilsTests: XCTestCase {

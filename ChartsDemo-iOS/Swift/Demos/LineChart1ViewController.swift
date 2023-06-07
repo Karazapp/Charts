@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Charts
+import IOSCharts
 
 class LineChart1ViewController: DemoBaseViewController {
 

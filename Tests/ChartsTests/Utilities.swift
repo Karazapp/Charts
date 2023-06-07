@@ -1,4 +1,4 @@
-import Charts
+import IOSCharts
 import SnapshotTesting
 import UIKit
 import XCTest
