@@ -13,10 +13,10 @@ let package = Package(
         .library(
             name: "IOSCharts",
             targets: ["IOSCharts"]),
-        .library(
-            name: "ChartsDynamic",
-            type: .dynamic,
-            targets: ["IOSCharts"])
+//        .library(
+//            name: "ChartsDynamic",
+//            type: .dynamic,
+//            targets: ["IOSCharts"])
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-algorithms", from: "1.0.0")
