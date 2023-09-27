@@ -496,10 +496,12 @@ open class ChartViewBase: NSUIView, ChartDataProvider, AnimatorDelegate
         for highlight in highlighted
         {
             guard
-                let set = data?[highlight.dataSetIndex],
-                let e = data?.entry(for: highlight)
+                let data,
+                data.count > highlight.dataSetIndex,
+                let e = data.entry(for: highlight)
                 else { continue }
             
+            let set = data[highlight.dataSetIndex]
             let entryIndex = set.entryIndex(entry: e)
             guard entryIndex <= Int(Double(set.entryCount) * chartAnimator.phaseX) else { continue }
 
